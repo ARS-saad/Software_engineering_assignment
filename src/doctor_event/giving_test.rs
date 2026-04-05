@@ -5,8 +5,8 @@ impl Patient {
         self.test.clear();
         self.test.extend(test);
         println!(
-            "Doctor {} give the parient {} for test {:?}!",
-            self.doctor.name, self.name, self.test
+            "D. {} give the test {:?} for patient {}!",
+            self.doctor.name, self.test, self.name
         );
     }
 }

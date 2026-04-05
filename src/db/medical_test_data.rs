@@ -1,4 +1,4 @@
-const TEST: [(&str, i32); 8] = [
+pub const TEST: [(&str, i32); 8] = [
     ("ECG", 400),
     ("X-Ray Chest (Digital)", 600),
     ("USG of Whole Abdomen", 2500),
